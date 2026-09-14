@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+data/
+logs/
+node_modules/
+*.sqlite*
+*.db*
+*.log
+index.*backup*.html
+qa-*.json

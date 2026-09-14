@@ -1,0 +1,15 @@
+{
+  "name": "business-assistant",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node server/main.mjs",
+    "setup": "node server/cli.mjs setup",
+    "sync": "node server/cli.mjs sync",
+    "status": "node server/cli.mjs status",
+    "import": "node server/cli.mjs import",
+    "test": "node --test test/*.test.mjs"
+  }
+}
